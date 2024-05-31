@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    gap: 16px;
+}
+
+.cart {
+    display: flex;
+    gap: 12px;
+    padding-left: 16px;
+    border-left: 1px solid #e6e6e6;
+}
+
+.cartTotal {
+    display:flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.text {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.2px
+}
+
+.num {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+}

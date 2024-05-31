@@ -1,0 +1,29 @@
+.fullScreen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  max-width: 1320px;
+}
+.line {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.navbg {
+  background-color: #333;
+}
+
+.bannerWrapper {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.miniBanners {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

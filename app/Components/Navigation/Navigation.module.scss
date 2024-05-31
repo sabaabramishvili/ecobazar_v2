@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navbutton {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    color:  #999999
+}
+
+.text {
+    color: #999;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.navbutton:hover,
+.navbutton:hover .text {
+    color: #fff;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.num {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}

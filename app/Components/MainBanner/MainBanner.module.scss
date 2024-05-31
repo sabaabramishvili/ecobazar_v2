@@ -1,0 +1,75 @@
+.container {
+    background-image: url('../../../public/Bannar\ Big.png');
+    width: 872px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+
+.bannerInfo {
+    width: 596px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-left: 60px;
+
+}
+
+.heading {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px
+}
+
+.bannerHead {
+    width: 400px;
+}
+
+.saleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #84d187;
+    padding-left: 12px;
+}
+
+.saleInfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.saleoffButton {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    background-color: #FF8A00;
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+
+.shippingText {
+color: #fff;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+opacity: 0.8;
+}
