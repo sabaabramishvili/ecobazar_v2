@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import Navigation from "./Components/Navigation/Navigation";
 import MainBanner from "./Components/MainBanner/MainBanner";
 import SideBanner from "./Components/SideBanner/SideBanner";
+import MiniBanner from "./Components/miniBanner/MiniBanner";
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
             <MainBanner />
             <div className={styles.miniBanners}>
                 <SideBanner />
+                <MiniBanner />
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import ShopNow from '../Buttons/ShopNow'
+import ShopNowTag from '../ShopNowTag/ShopNowTag'
 import styles from './MainBanner.module.scss'
 import Image from 'next/image'
 
@@ -19,7 +19,7 @@ const MainBanner = () => {
                     </div>
                     <span className={styles.shippingText}>Free shipping on all your order.</span>
                 </div>
-                    <ShopNow />
+                    <ShopNowTag title='Shop Now' tag='whitebg'/>
             </div>
         </div>
     )

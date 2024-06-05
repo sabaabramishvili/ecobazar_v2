@@ -1,11 +1,39 @@
 .container {
     display: flex;
     align-items: center;
-    gap: 12px;
+    max-width: 191px;
+    border-radius: 53px;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    gap: 12px; 
+    color: #00B207;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.2px
 }
 
-.text {
+
+
+.whitebg {
+    background-color: #fff;
+    gap: 16px;
+    padding: 16px 40px;
     color: #00B207;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.2px
+}
+
+.greenbg {
+    background-color: #00B207;
+    gap: 16px;
+    padding: 16px 40px;
+    color: #fff;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
