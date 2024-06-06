@@ -1,0 +1,54 @@
+.vegetablebg {
+    background-image: url(../../../public/vegbg.png);
+    width: 424px;
+    height: 536px;
+}
+
+.meatbg {
+    background-image: url(../../../public/meatbg.png);
+    width: 424px;
+    height: 536px;
+}
+
+.fruitbg {
+    background-image: url(../../../public/fruitbg.png);
+    width: 424px;
+    height: 536px;
+}
+
+.subtext {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 35px;
+}
+
+.saleInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}

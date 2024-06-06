@@ -6,6 +6,12 @@ import Navigation from "./Components/Navigation/Navigation";
 import MainBanner from "./Components/MainBanner/MainBanner";
 import SideBanner from "./Components/SideBanner/SideBanner";
 import MiniBanner from "./Components/miniBanner/MiniBanner";
+import FeatureWrapper from "./Components/FeatureWrapper/FeatureWrapper";
+import ProductHead from "./Components/ProductHead/ProductHead";
+import PopularCategories from "./Components/PopularCategories/PopularCategories";
+import Products from "./Components/Products/Products";
+import PopularProducts from "./Components/PopularProducts/PopularProducts";
+import SaleBanners from "./Components/SaleBanners/SaleBanners";
 
 
 export default function Home() {
@@ -31,12 +37,47 @@ export default function Home() {
           <div className={styles.bannerWrapper}>
             <MainBanner />
             <div className={styles.miniBanners}>
-                <SideBanner />
-                <MiniBanner />
+              <SideBanner />
+              <MiniBanner />
             </div>
           </div>
         </div>
       </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <FeatureWrapper />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <ProductHead name="Popular Categories" />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <PopularCategories />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <ProductHead name="Popular Categories" />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <PopularProducts />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <SaleBanners />
+        </div>
+      </div>
+
     </>
   );
 }
