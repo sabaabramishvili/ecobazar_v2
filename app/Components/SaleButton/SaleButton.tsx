@@ -6,10 +6,12 @@ interface Props {
 }
 
 const SaleButton = (props: Props) => {
-    const arr = []
-    { props.type == 'Best' ? arr.push(styles.best) : arr.push(styles.normal) }
+    const arr = [styles.button]
+    { props.type == 'best' ? arr.push(styles.best) : arr.push(styles.normal) }
 
     return (
         <span className={arr.join(' ')}>{props.title}</span>
     )
 }
+
+export default SaleButton

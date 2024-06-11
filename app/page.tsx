@@ -12,6 +12,12 @@ import PopularCategories from "./Components/PopularCategories/PopularCategories"
 import Products from "./Components/Products/Products";
 import PopularProducts from "./Components/PopularProducts/PopularProducts";
 import SaleBanners from "./Components/SaleBanners/SaleBanners";
+import HotSale from "./HotSale/HotSale";
+import HotDeals from "./Components/HotDeals/HotDeals";
+import DiscountBanner from "./Components/DiscountBanner/DiscountBanner";
+import FeatureProducts from "./Components/FeaturedProducts/FeatureProducts";
+import Date from "./Components/Date/Date";
+import NewsWrap from "./Components/NewsWrap/NewsWrap";
 
 
 export default function Home() {
@@ -77,7 +83,36 @@ export default function Home() {
           <SaleBanners />
         </div>
       </div>
-
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <ProductHead name="Hot Deals" />
+        </div>
+      </div>
+      <div className={`${styles.fullScreen} ${styles.dealsbg}`}>
+        <div className={styles.container}>
+          <HotDeals />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <DiscountBanner />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <ProductHead name="Featured Products" />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <FeatureProducts />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <NewsWrap />
+        </div>
+      </div>
     </>
   );
 }

@@ -9,7 +9,7 @@ const SaleBanners = () => {
     return (
         <div className={styles.container}>
             <SaleMonthBanner title='Sale Of The Month' subtext='best deals' img='vegetablebg'>
-                <CountDown />
+                <CountDown days='00'hours='02' mins='18' secs='46'  style='white'/>
 
             </SaleMonthBanner>
             <SaleMonthBanner title='Low-Fat Meat' subtext='85% fat free' img='meatbg'>

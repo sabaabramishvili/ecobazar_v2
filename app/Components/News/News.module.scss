@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.orangebg {
+    position: relative;
+    background-image: url(../../../public/orangebg.png);
+    width: 423px;
+    height: 324px;
+}
+
+.eggbg {
+    position: relative;
+    background-image: url(../../../public/eggbg.png);
+    width: 423px;
+    height: 324px;
+}
+
+.saladbg {
+    position: relative;
+    background-image: url(../../../public/saladbg.png);
+    width: 423px;
+    height: 324px;
+}
+
+.date {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+
+}
+
+.newsInside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 24px 24px 24px;
+}
+
+.newsInfo {
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.tags {
+    display: flex;
+    gap: 16px;
+}
+
+.tag {
+    display: flex;
+    gap: 4px;
+}
+
+.paragraph {
+    color: #1a1a1a;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.container:hover .paragraph {
+    color: #2C742F;
+}
+
+.text {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px
+}
