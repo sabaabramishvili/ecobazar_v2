@@ -1,24 +1,12 @@
 .container {
     display: flex;
-    flex-direction: column;
-    gap: 32px;
-    margin-bottom: 60px;
-}
-
-.head {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
-}
-
-.wrapper {
-    display: flex;
     align-items: center;
-    gap: 24px;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 35px;
 }
 
-.header {
+.text {
     color: #1A1A1A;
     text-align: center;
     font-family: Poppins;
@@ -26,4 +14,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: 38.4px
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }

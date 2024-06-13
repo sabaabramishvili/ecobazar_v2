@@ -18,9 +18,19 @@ import DiscountBanner from "./Components/DiscountBanner/DiscountBanner";
 import FeatureProducts from "./Components/FeaturedProducts/FeatureProducts";
 import Date from "./Components/Date/Date";
 import NewsWrap from "./Components/NewsWrap/NewsWrap";
+import Comment from "./Components/Comment/Comment";
+import CommentWrap from "./Components/CommentWrap/CommentWrap";
+import CommentHead from "./Components/CommentHead/CommentHead";
+import Sponsors from "./Components/Sponsors/Sponsors";
+import Instagram from "./Components/Instagram/Instagram";
+import FooterSearch from "./Components/FooterSearch/FooterSearch";
+import FooterHead from "./Components/FooterHead/FooterHead";
+import Footer from "./Components/Footer/Footer";
+import Copyright from "./Components/Copyright/Copyright";
 
 
 export default function Home() {
+
   return (
     <>
       <div className={`${styles.fullScreen} ${styles.line}`}>
@@ -111,6 +121,35 @@ export default function Home() {
       <div className={styles.fullScreen}>
         <div className={styles.container}>
           <NewsWrap />
+        </div>
+      </div>
+      <div className={`${styles.fullScreen} ${styles.dealsbg} ${styles.commentContainer}`}>
+        <div className={styles.container}>
+          <CommentHead />
+        </div>
+        <div className={styles.container}>
+          <CommentWrap />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <Sponsors />
+        </div>
+      </div>
+      <div className={styles.fullScreen}>
+        <div className={styles.container}>
+          <Instagram />
+        </div>
+      </div>
+      <div className={`${styles.fullScreen} ${styles.dealsbg}`}>
+        <div className={styles.container}>
+          <FooterHead />
+        </div>
+      </div>
+      <div className={`${styles.fullScreen} ${styles.footerbg}`}>
+        <div className={styles.container}>
+          <Footer />
+          <Copyright />
         </div>
       </div>
     </>

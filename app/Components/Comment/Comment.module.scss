@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #fff;
+    padding: 24px;
+    width: 424px;
+}
+
+.text {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.customerInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.customerText {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.subtext {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}

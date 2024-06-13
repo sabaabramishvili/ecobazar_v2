@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    box-shadow: 0px -1px 0px 0px #333;
+
+}
+
+.text {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
